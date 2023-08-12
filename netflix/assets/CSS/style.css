@@ -1,0 +1,60 @@
+.netflix-logo {
+    width: 18%;
+}
+
+.dropdown {
+    display: inline-block;
+    margin-left: 52%;
+}
+
+.select_language {
+    padding: 8px 8px 8px 33px;
+    font-size: 16px;
+}
+
+.globe{
+    position: absolute;
+    top: 7px;
+    left: 10px;
+}
+
+#bg_image{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url("../images/netflix_logo.jpg");
+    height: 43em;
+    background-size: cover;
+}
+
+.text_container{
+    color: #fff;
+    margin-top: 11em;
+    text-align: center;
+}
+
+.line_1{
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.line_2{
+    font-weight: 400;
+    font-size: 160%;
+}
+
+.line_3{
+    font-weight: 400;
+    font-size: 127%;
+}
+
+.form{
+    color: lightgray;
+    margin-left: 14em;
+}
+
+.label{
+    color: #fff !important;
+}
+
+.label::after{
+    background-color: #00000000 !important;
+    color: #fff !important;
+}
